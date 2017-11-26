@@ -1,0 +1,51 @@
+html{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: #42494e;
+  width:100%;
+  background-color:#E1E0DF;
+}
+.flex-header{
+  display: flex;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  color:#EAE8E7;
+  left: 0px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  box-shadow: 2px 2px 5px grey;
+  background-color: black;
+}
+.menu{
+  font-size: 1.75rem;
+  padding-left: 60px;
+  font-family: courier;
+  text-shadow:2px 2px 5px grey;
+  color:#DCE1DE;
+}
+.shop{
+  font-size:1.75rem;
+  padding-right: 60px;
+  font-family: courier;
+  text-shadow: 2px 2px 5px grey;
+  color:#DCE1DE;
+}
+.homepage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DCE1DE;
+}
+.motto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:wrap;
+
+}
+.images-olives{
+  display: inline-flex;
+
+}
